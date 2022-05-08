@@ -21,7 +21,6 @@ formEl.addEventListener("submit", (event) => {
     .then((response) => response.json())
     .then((data) => {
       colors = data.colors.map((color) => color.hex.value);
-      console.log(colors);
       populateColors();
     });
 });
