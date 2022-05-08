@@ -59,6 +59,11 @@ select {
   border-radius: 5px;
 }
 
+select:hover {
+  cursor: pointer;
+  border-color: white;
+}
+
 .btn {
   padding: 0.6em 0.8em;
   border: none;
@@ -68,6 +73,12 @@ select {
 .btn-dark {
   background-color: #3d4b60;
   color: white;
+}
+
+.btn-dark:hover,
+.btn-dark:focus {
+  outline: 1px white solid;
+  cursor: pointer;
 }
 
 #color-1 > .color {
