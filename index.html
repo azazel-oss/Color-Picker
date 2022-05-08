@@ -1,0 +1,46 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <main>
+            <form id="color-form" action="/index.html" method="GET">
+                <input class="seed-color" id="color" name="color" type="color" />
+                <select class="select-color" id="mode" name="mode">
+                    <option value="monochrome">Monochrome</option>
+                    <option value="monochrome-dark">Monochrome Dark</option>
+                    <option value="monochrome-light">Monochrome Light</option>
+                    <option value="analogic">Analogic</option>
+                    <option value="complement">Complement</option>
+                    <option value="analogic-complement">Analogic Complement</option>
+                    <option value="triad">Triad</option>
+                    <option value="quad">Quad</option>
+                </select>
+                <button class="btn btn-dark" id="form-submit" type="submit">Get color schemes</button>
+            </form>
+            <section class="scheme-container">
+                <div id="color-1" class="color-container">
+                    <div class="color"></div>
+                    <div class="color-code">#F55A5A</div>
+                </div>
+                <div id="color-2" class="color-container">
+                    <div class="color"></div>
+                    <div class="color-code">#2B283A</div>
+                </div>
+                <div id="color-3" class="color-container">
+                    <div class="color"></div>
+                    <div class="color-code">#FBF3AB</div>
+                </div>
+                <div id="color-4" class="color-container">
+                    <div class="color"></div>
+                    <div class="color-code">#AAD1B6</div>
+                </div>
+                <div id="color-5" class="color-container">
+                    <div class="color"></div>
+                    <div class="color-code">#A626D3</div>
+                </div>
+            </section>
+        </main>
+        <script src="index.js"></script>
+    </body>
+</html>
